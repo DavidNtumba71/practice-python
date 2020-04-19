@@ -1,17 +1,28 @@
 inventory_resurves = []
 
-def add_item_to_inventory():
 
-    inventory_resurves
+addItemName = input(print("item name"))   
+
+print(addItemName)
+
+
+
+def add_item_to_inventory():
 
     addItemName = input("item name")            #item name
     addItemCost = int(input("item cost"))       #item  cost
     addItemPrice = int(input("item price"))     #item selling price
     addItemAmount = int(input("item amount"))   #amount of item added to inventory
 
+
+    # I also changed the input methods
+
 #create new dictionary with the above information as a new item in inventory
-    print(addItemName) = dict(str(print(addItemName)) = addItemAmount, ItemCost = addItemCost, ItemPrice = addItemPrice, ItemAmount = addItemAmount)
-    inventory_resurves.append(addItemName)
+    item = (addItemName, addItemCost, addItemPrice, addItemAmount)
+    inventory_resurves.append(item)
+
+    #Created an item variable and assigned the dicyionary value to it.
+    #I used a tuple instead... he he he
 
     print(inventory_resurves)
 
