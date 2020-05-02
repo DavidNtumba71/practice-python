@@ -3,7 +3,7 @@ import time
 
 print("Hi, Wlecome to Inventory Management")
 
-# this version will create an item class
+#this version will create an item class
 
 
 class Item:
@@ -20,7 +20,7 @@ class Item:
 
         print("Printing Item detials....")
 
-        time.sleep(3) # a neat little sleep function
+        time.sleep(3) #a neat little sleep function
 
         print({self.__name__, self.__cost__, self.__price__, self.__units__})
 
