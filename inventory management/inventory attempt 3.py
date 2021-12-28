@@ -5,7 +5,6 @@ print("Hi, Wlecome to Inventory Management")
 
 #this version will create an item class
 
-
 class Item:
 
     def __init__(self, name, cost, price,  units):
@@ -26,8 +25,6 @@ class Item:
 
         return None
 
-
-
 # method to set inventory
 def add_item_to_inventory():
     
@@ -37,9 +34,6 @@ def add_item_to_inventory():
     addItemAmount = int(input("item amount: "))   #amount of item added to inventory
 
     return Item(addItemName, addItemCost, addItemPrice, addItemAmount)
-
-
-
 
 item1 = add_item_to_inventory() # assigning the value returned to the variable
 item1.recordItem()
